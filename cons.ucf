@@ -1,0 +1,34 @@
+CONFIG VCCAUX = "3.3" ;
+
+   NET "i_clk"            LOC = P129  | IOSTANDARD = LVCMOS33 | PERIOD = 100MHz;
+   
+   NET "i_rst"            LOC = P80   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+   
+   NET "i_dpad[0]"        LOC = P78   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+   NET "i_dpad[1]"        LOC = P77   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+   NET "i_dpad[2]"        LOC = P76   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+   NET "i_dpad[3]"        LOC = P75   | PULLUP  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+    
+   NET "o_hsync"          LOC = P93   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+   NET "o_vsync"          LOC = P92   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+   NET "o_r[2]"           LOC = P105  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+   NET "o_r[1]"           LOC = P104  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+   NET "o_r[0]"           LOC = P103  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+   NET "o_g[2]"           LOC = P102  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+   NET "o_g[1]"           LOC = P101  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+   NET "o_g[0]"           LOC = P99   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+   NET "o_b[1]"           LOC = P98   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+   NET "o_b[0]"           LOC = P96   | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+   
+   NET "o_ss[7]"          LOC = P117  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+   NET "o_ss[6]"          LOC = P116  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+   NET "o_ss[5]"          LOC = P115  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+   NET "o_ss[4]"          LOC = P113  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+   NET "o_ss[3]"          LOC = P112  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+   NET "o_ss[2]"          LOC = P111  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+   NET "o_ss[1]"          LOC = P110  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+   NET "o_ss[0]"          LOC = P114  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+
+   NET "o_en[2]"          LOC = P124  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+   NET "o_en[1]"          LOC = P121  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
+   NET "o_en[0]"          LOC = P120  | IOSTANDARD = LVCMOS33 | SLEW = SLOW | DRIVE = 12;
